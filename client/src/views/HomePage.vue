@@ -314,7 +314,7 @@ export default {
 .left-pane {
   flex: 6;
   padding: 10px;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #171616;
 }
  
 ion-table.table {
