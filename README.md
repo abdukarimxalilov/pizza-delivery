@@ -3,6 +3,14 @@
 - Note: This project was created for learning purposes, specifically to practice working with RabbitMQ, Docker, Websocket, the Ionic JavaScript framework and Air is a live reloading tool designed for Golang developers.
 
 - Pizza Delivery is a modern and efficient food ordering system that allows customers to order pizzas online with real-time tracking. 
+
+✔ WebSockets for Real-Time Communication
+Maintains a persistent connection with the client.
+Pushes real-time updates (e.g., order status changes, delivery tracking).
+
+✔ RabbitMQ for Message Processing
+Handles background tasks asynchronously.
+Ensures reliable communication between services (e.g., backend → kitchen system → delivery).
  
 🏗️ Tech Stack
 
@@ -12,7 +20,7 @@ Frontend: JavaScript (Ionic Framework)
 
 Messaging: RabbitMQ
 
-Authentication: JWT / OAuth (Planned but not fully implemented yet.)
+Real-time order updates: Websocket
 
 Deployment: Docker
 
