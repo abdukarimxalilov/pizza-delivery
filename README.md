@@ -21,8 +21,10 @@ Real-time order updates: Websocket
 Deployment: Docker
 
 📦 Installation & Setup 
+
 # Clone the repository
-git clone git@github.com:abdukarimxalilov/pizza-delivery.git
+git clone https://github.com/abdukarimxalilov/pizza-delivery.git
+
 cd pizza-delivery
 
 # Set up environment variables
@@ -34,7 +36,7 @@ air install && air
 # Run frontend (Ionic)
 npm install && ionic serve
 
-🤝 Contributing
+- 🤝 Contributing
 
 Fork the repository.
 
