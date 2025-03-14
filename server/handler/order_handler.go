@@ -11,7 +11,7 @@ type OrderHandler struct {
 }
 
 func (oh *OrderHandler) CreateOrder(ctx *gin.Context) {
-	var payload map[string]interface{}
+	var payload map[string] interface{}
 	if err := ctx.ShouldBindJSON(&payload); err != nil {
 		ctx.JSON(400, gin.H{
 			"message":    "Bad Request",
