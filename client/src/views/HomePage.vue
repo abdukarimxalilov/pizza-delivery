@@ -227,7 +227,7 @@ export default {
     connectWebSocket() {
       this.ws = new WebSocket("ws://localhost:8661/ws/");
       this.ws.onclose = (event) => {
-        if(this.retryCount < 10) {
+        if(this.retryCount < 5) {
           this.connectWebSocket()
           this.retryCount++;
           return
@@ -236,7 +236,7 @@ export default {
         }
       }
       this.ws.onerror = (event) => {
-        if(this.retryCount < 10) {
+        if(this.retryCount < 5) {
           this.connectWebSocket()
           this.retryCount++;
           return
@@ -245,7 +245,7 @@ export default {
         }
       }
       this.ws.onopen = (event) => {
-        for(let i = 1; i <= 300; i++) {
+        for(let i = 1; i <= 10; i++) {
           const data = {
             order_no: i + 1,
             order_status: "ordered",
