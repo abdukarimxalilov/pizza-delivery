@@ -4,13 +4,9 @@
 
 - Pizza Delivery is a modern and efficient food ordering system that allows customers to order pizzas online with real-time tracking. 
 
-✔ WebSockets for Real-Time Communication
-Maintains a persistent connection with the client.
-Pushes real-time updates (e.g., order status changes, delivery tracking).
+✔ WebSockets for Real-Time Communication: it maintains a persistent connection with the client and pushes real-time updates (e.g., order status changes, delivery tracking).
 
-✔ RabbitMQ for Message Processing
-Handles background tasks asynchronously.
-Ensures reliable communication between services (e.g., backend → kitchen system → delivery).
+✔ RabbitMQ for Message Processing: it handles background tasks asynchronously and ensures reliable communication between services (e.g., backend → kitchen system → delivery).
  
 🏗️ Tech Stack
 
